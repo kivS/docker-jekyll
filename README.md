@@ -1,11 +1,21 @@
 # Docker Jekyll Website
 
 
-Requirements:
-    1 - Docker
-    2 - Docker-compose
+## Requirements:
+
+- Docker
+- Docker-compose
 
 
-Setup:
+
+## Setup:
 
 `docker-compose run bundle install`
+
+
+Developer server:
+`docker-compose up`
+
+
+Open container shell:
+`docker-compose exec site bash`

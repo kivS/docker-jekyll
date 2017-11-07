@@ -1,5 +1,9 @@
 # Docker Jekyll Website
 
+## Default Components:
+- Jekyll default theme - minima
+- Jekyll feed plugin
+- Jekyll Livereload plugin
 
 ## Requirements:
 
@@ -12,20 +16,25 @@
 
 2. Install dependecies
     ```bash
-    docker-compose run bundle install
+    docker-compose run site bundle install
+    ```
+    
+3. Start dev server
+    ```bash
+    docker-compose up
     ```
 
+4. Open `http://localhost:4000`
 
 
 
+## Utils
 
+- Open container shell:
+    ```bash
+    docker-compose exec site bash
+    ```
+    
+- Bundle folder location: `code/.vendor_bundle`
 
-
-## 
-
-Developer server:
-`docker-compose up`
-
-
-Open container shell:
-`docker-compose exec site bash`
+- Default theme location: `code/.vendor_bundle/gems/minima-X.X.X`

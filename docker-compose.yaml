@@ -1,7 +1,6 @@
 version: '3'
 services:
   site:
-    container_name: j-site
     build: .
     command: bundle exec jekyll serve --drafts --verbose -L -R 5678 --host 0.0.0.0 
     volumes:

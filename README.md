@@ -3,15 +3,25 @@
 
 ## Requirements:
 
-- Docker
-- Docker-compose
-
+- [Docker](https://docs.docker.com/engine/installation/)
+- [Docker-compose](https://docs.docker.com/compose/install/)
 
 
 ## Setup:
+1. Clone repository 
 
-`docker-compose run bundle install`
+2. Install dependecies
+```bash
+docker-compose run bundle install
+```
 
+
+
+
+
+
+
+## 
 
 Developer server:
 `docker-compose up`

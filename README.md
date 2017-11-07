@@ -11,9 +11,9 @@
 1. Clone repository 
 
 2. Install dependecies
-```bash
-docker-compose run bundle install
-```
+    ```bash
+    docker-compose run bundle install
+    ```
 
 
 

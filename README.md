@@ -12,10 +12,15 @@
 
 2. Install dependecies
     ```bash
-    docker-compose run bundle install
+    docker-compose run site bundle install
+    ```
+    
+3. Start dev server
+    ```bash
+    docker-compose up
     ```
 
-
+4. Open `http://localhost:4000`
 
 
 

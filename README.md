@@ -38,3 +38,10 @@
 - Bundle folder location: `code/.vendor_bundle`
 
 - Default theme location: `code/.vendor_bundle/gems/minima-X.X.X`
+
+## Deploy to gh-pages
+
+- Run deploy command
+    ```bash
+    ./deploy.sh
+    ```

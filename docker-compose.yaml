@@ -1,0 +1,11 @@
+version: '3'
+services:
+  blog:
+    build: .
+    command: bundle exec jekyll serve --drafts --verbose -L -R 5678 --host 0.0.0.0 
+    volumes:
+      - $PWD/code:/home/code
+      - ./code/.vendor_bundle:/usr/local/bundle
+    ports:
+      - 4000:4000
+      - 5678:5678

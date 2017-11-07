@@ -14,7 +14,7 @@
 ## Setup:
 1. Clone repository 
 
-2. Install dependecies
+2. Install dependencies
     ```bash
     docker-compose run site bundle install
     ```
